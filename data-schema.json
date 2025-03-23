@@ -1,0 +1,95 @@
+{
+    "type": "object",
+    "uniqueItems": true,
+    "additionalProperties": false,
+    "patternProperties": {
+        "^[A-Z]{2}$": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "alcohol"
+            ],
+            "properties": {
+                "alcohol": {
+                    "type": "object",
+                    "properties": {
+                        "legalStatus": {
+                            "type": "string"
+                        },
+                        "legalAge": {
+                            "type": [
+                                "object",
+                                "null"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "off-premise": {
+                                    "type": [
+                                        "object",
+                                        "integer"
+                                    ],
+                                    "additionalProperties": false,
+                                    "required": [
+                                        "beer",
+                                        "wine",
+                                        "spirits"
+                                    ],
+                                    "properties": {
+                                        "beer": {
+                                            "type": "integer"
+                                        },
+                                        "wine": {
+                                            "type": "integer"
+                                        },
+                                        "spirits": {
+                                            "type": "integer"
+                                        }
+                                    }
+                                },
+                                "on-premise": {
+                                    "type": [
+                                        "object",
+                                        "integer"
+                                    ],
+                                    "additionalProperties": false,
+                                    "required": [
+                                        "beer",
+                                        "wine",
+                                        "spirits"
+                                    ],
+                                    "properties": {
+                                        "beer": {
+                                            "type": "integer"
+                                        },
+                                        "wine": {
+                                            "type": "integer"
+                                        },
+                                        "spirits": {
+                                            "type": "integer"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "notes": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "patternProperties": {
+                                "^[a-z]{2}$": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "links": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "car": {}
+            }
+        }
+    }
+}

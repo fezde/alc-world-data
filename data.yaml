@@ -1,0 +1,98 @@
+AF:   # Afghanistan
+  alcohol: 
+    legalStatus: "prohibited"  # prohibited,  legal, restricted
+    legalAge: null  # none,   object
+    notes:
+      en: Alcohol is completely prohibited in Afghanistan for all citizens and residents.
+    links:
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+
+AU:   # Australia
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18  # number or object
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 throughout Australia.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+
+BH:  # Bahrain
+  alcohol: 
+    legalStatus: restricted
+    legalAge: 
+      off-premise: 21  # number or object
+      on-premise: 21
+    notes: 
+      en: Alcohol is legal for non-Muslims in licensed venues. Legal age is 21.
+
+CA:   # Canada
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 19  # number or object
+      on-premise: 19
+    notes: 
+      en: "Legal drinking age varies by province: 18 in Alberta, Manitoba, and Quebec; 19 in all other provinces and territories."
+
+DE:   # Germany
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 
+        beer: 16
+        wine: 16
+        spirits: 18
+      on-premise: 
+        beer: 16
+        wine: 16
+        spirits: 18
+    notes: 
+      en: Beer and wine can be purchased at 16, spirits at 18.
+      de: Bier und Wein darfst du ab 16 Jahren kaufen und trinken; Spirituosen erst ab 18 Jahren.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+
+DK:   # Denmark
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 
+        beer: 16
+        wine: 16
+        spirits: 18
+      on-premise: 18
+    notes: 
+      en: Beverages with alcohol content below 16.5% can be purchased at age 16, while stronger alcohol requires age 18. For on-premise purchases the legal age is 18. Those rules apply for buying alcohol; there are no rules for actually drinking it.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.thirstyswagman.com/thirsty-news/6-things-didnt-know-drinking-in-denmark/
+
+"NO":   # Norway
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 
+        beer: 18
+        wine: 18
+        spirits: 20
+      on-premise: 
+        beer: 18
+        wine: 18
+        spirits: 20
+    notes: 
+      en: ""
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+ 
+US:   # United States of America
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 21  # number or object
+      on-premise: 21
+    notes: 
+      en: The legal drinking age is 21 in all states.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
