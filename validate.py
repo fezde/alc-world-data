@@ -9,5 +9,9 @@ with open("data-schema.json", "r") as f:
 with open("data.yaml", "r") as f:
     good_instance = f.read()
 
-
-validate(yaml.safe_load(good_instance), schema)
+try:
+    validate(yaml.safe_load(good_instance), schema)
+    exit(0)
+except Exception as e:
+    print(e)
+    exit(1)
