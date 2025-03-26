@@ -7,16 +7,52 @@ AF:   # Afghanistan
     links:
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
 
+AT:   # Austria
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 
+        beer: 16
+        wine: 16
+        spirits: 18
+      on-premise: 
+        beer: 16
+        wine: 16
+        spirits: 18
+    notes: 
+      en: Beer and wine can be purchased at 16, spirits at 18.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.bundeskanzleramt.gv.at/agenda/jugend/jugendschutz.html
+
 AU:   # Australia
   alcohol: 
     legalStatus: legal
     legalAge: 
-      off-premise: 18  # number or object
+      off-premise: 18
       on-premise: 18
     notes: 
       en: The legal drinking age is 18 throughout Australia.
     links: 
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
+
+BE:   # Belgium
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 
+        beer: 16
+        wine: 16
+        spirits: 18
+      on-premise: 
+        beer: 16
+        wine: 16
+        spirits: 18
+    notes: 
+      en: Beer and wine can be purchased at 16, spirits at 18.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://en.wikipedia.org/wiki/Minimum_legal_ages_in_Belgium
 
 BH:  # Bahrain
   alcohol: 
@@ -35,6 +71,25 @@ CA:   # Canada
       on-premise: 19
     notes: 
       en: "Legal drinking age varies by province: 18 in Alberta, Manitoba, and Quebec; 19 in all other provinces and territories."
+
+CH:   # Switzerland
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 
+        beer: 16
+        wine: 16
+        spirits: 18
+      on-premise: 
+        beer: 16
+        wine: 16
+        spirits: 18
+    notes: 
+      en: Beer and wine can be purchased at 16, spirits at 18.
+      de: Bier und Wein darfst du ab 16 Jahren kaufen und trinken; Spirituosen erst ab 18 Jahren.
+    links: 
+      - https://www.myswitzerland.com/en/planning/about-switzerland/general-facts/general-information/alcohol-and-tobacco
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
 
 DE:   # Germany
   alcohol: 
@@ -69,6 +124,66 @@ DK:   # Denmark
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://www.thirstyswagman.com/thirsty-news/6-things-didnt-know-drinking-in-denmark/
 
+ES:   # Spain
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18  
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 throughout Spain.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.thetrainline.com/en-us/via/europe/the-legal-drinking-age-in-popular-european-countries
+
+FR:   # France
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18  
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 throughout France.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.thetrainline.com/en-us/via/europe/the-legal-drinking-age-in-popular-european-countries
+
+IT:   # Italy
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18  
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 throughout Italy.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.thetrainline.com/en-us/via/europe/the-legal-drinking-age-in-popular-european-countries
+
+LU:   # Luxembourg
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 16  
+      on-premise: 16
+    notes: 
+      en: The legal drinking age is 16 throughout Luxembourg.
+    links: 
+      - https://police.public.lu/en/legislation/alcool.html
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+
+NL:   # Netherlands
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18  
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 throughout the Netherlands.
+    links: 
+      - https://www.government.nl/topics/holidays-and-travels/question-and-answer/how-old-do-i-need-to-be-to-buy-alcohol-or-have-it-in-my-possession-in-public
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+
 "NO":   # Norway
   alcohol: 
     legalStatus: legal
@@ -85,7 +200,32 @@ DK:   # Denmark
       en: ""
     links: 
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
- 
+
+PL:   # Poland
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 all over Poland. Drinking is not allowed in public places.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://travelsinpoland.com/drinking-age-in-poland/
+
+RO:   # Romania
+  #fez: test
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 all over Romania. It is important to note that drinking in public places is strictly prohibited. This includes streets, parks, trains, buses, and public buildings.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://theromanianlawyers.com/exploring-the-legal-drinking-age-in-romania-from-minimum-limits-to-age-restrictions/
+
 US:   # United States of America
   alcohol: 
     legalStatus: legal
