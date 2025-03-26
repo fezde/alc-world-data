@@ -226,6 +226,18 @@ RO:   # Romania
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://theromanianlawyers.com/exploring-the-legal-drinking-age-in-romania-from-minimum-limits-to-age-restrictions/
 
+UK:   # United Kingdom
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 in the United Kingdom. However, if you're 16 or 17 and accompanied by an adult, you can drink (but not buy) beer, wine or cider with a meal.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.gov.uk/alcohol-young-people-law
+
 US:   # United States of America
   alcohol: 
     legalStatus: legal
