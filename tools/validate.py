@@ -3,10 +3,10 @@ import json
 import yaml
 from jsonschema import validate
 
-with open("data-schema.json", "r") as f:
+with open("data/data-schema.json", "r") as f:
     schema = json.load(f)
 
-with open("data.yaml", "r") as f:
+with open("data/data.yaml", "r") as f:
     good_instance = f.read()
 
 try:
