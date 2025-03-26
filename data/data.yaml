@@ -173,6 +173,7 @@ LU:   # Luxembourg
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
 
 NL:   # Netherlands
+  break: me
   alcohol: 
     legalStatus: legal
     legalAge: 
