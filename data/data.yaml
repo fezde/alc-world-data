@@ -91,6 +91,19 @@ CH:   # Switzerland
       - https://www.myswitzerland.com/en/planning/about-switzerland/general-facts/general-information/alcohol-and-tobacco
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
 
+CZ:   # Czech Republic
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: In the Czech Republic, the consumption of alcohol is prohibited for children and adolescents under the age of 18. In numerous public places, as well as on the riverbank in Prague, it is forbidden to drink alcohol between 12 midnight and 9am.
+      de: In Tschechien ist der Konsum von Alkohol für Kinder und Jugendliche unter 18 Jahren verboten. An zahlreichen öffentlichen Plätzen sowie am Flussufer in Prag ist es zwischen 24 und 9 Uhr verboten, Alkohol zu trinken.
+    links: 
+      - https://www.auswaertiges-amt.de/de/service/laender/tschechischerepublik-node/tschechischerepubliksicherheit-210456
+      - https://www.prag-aktuell.cz/basisinfo/klassenfahrt-prag-bier-ab-16-legal
+
 DE:   # Germany
   alcohol: 
     legalStatus: legal
@@ -160,6 +173,18 @@ IT:   # Italy
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://www.thetrainline.com/en-us/via/europe/the-legal-drinking-age-in-popular-european-countries
 
+JP:   # Japan
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 20  
+      on-premise: 20
+    notes: 
+      en: The legal drinking age is 20 throughout Japan.
+    links: 
+      - https://www.iroamly.com/japan-travel/drinking-age-in-japan.html
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+
 LU:   # Luxembourg
   alcohol: 
     legalStatus: legal
@@ -225,6 +250,36 @@ RO:   # Romania
     links: 
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://theromanianlawyers.com/exploring-the-legal-drinking-age-in-romania-from-minimum-limits-to-age-restrictions/
+
+SE:   # Sweden
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 
+        beer: 18
+        wine: 18
+        spirits: 20
+      on-premise: 
+        beer: 18
+        wine: 18
+        spirits: 18
+    notes: 
+      en: In bars and nightclubs the minimum age to be served alcohol is 18. To buy alcoholic beverages containing over 3.5% alcohol by volume, the minimum age is 20. For beverages under 3.5% alcohol by volume, the age is 18.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.campervansweden.com/blog/travel-information/drinking-age-sweden
+
+SK:   # Slovakia
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 all over Slovakia.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.roughguides.com/slovakia/eating-drinking/
 
 UK:   # United Kingdom
   alcohol: 
