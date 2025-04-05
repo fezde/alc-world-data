@@ -7,6 +7,18 @@ AF:   # Afghanistan
     links:
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
 
+AR:   # Argentina
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: Alcohol consumption is forbidden for people under the age of 18, and for all people while in public spaces or in stadiums during sporting, cultural or artistic events. Supermarkets and grocery stores may only sell alcoholic beverages until 10 PM. Restaurants, bars and night clubs may sell them until 5 AM.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://cancilleria.gob.ar/en/initiatives/paba/buenos-aires
+
 AT:   # Austria
   alcohol: 
     legalStatus: legal
@@ -54,14 +66,17 @@ BE:   # Belgium
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://en.wikipedia.org/wiki/Minimum_legal_ages_in_Belgium
 
-BH:  # Bahrain
+BR:   # Brazil
   alcohol: 
-    legalStatus: restricted
+    legalStatus: legal
     legalAge: 
-      off-premise: 21  # number or object
-      on-premise: 21
+      off-premise: 18
+      on-premise: 18
     notes: 
-      en: Alcohol is legal for non-Muslims in licensed venues. Legal age is 21.
+      en: The legal drinking age is 18 throughout Brazil.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://misti.mit.edu/brazil-preparation-and-training/brazil-resource-guide/brazil-travel-more
 
 CA:   # Canada
   alcohol: 
@@ -137,6 +152,18 @@ DK:   # Denmark
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://www.thirstyswagman.com/thirsty-news/6-things-didnt-know-drinking-in-denmark/
 
+EG:   # Egypt
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 21
+      on-premise: 21
+    notes: 
+      en: The legal drinking age is 21 in Egypt. During the month of Ramadan, alcohol is absolutely forbidden and only travelers with a foreign passport can purchase alcohol.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://jetsettimes.com/countries/egypt/cairo/cairo-culturati/5-things-to-know-about-the-drinking-culture-in-egypt/
+
 ES:   # Spain
   alcohol: 
     legalStatus: legal
@@ -149,6 +176,24 @@ ES:   # Spain
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://www.thetrainline.com/en-us/via/europe/the-legal-drinking-age-in-popular-european-countries
 
+FI:   # Finland
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 
+        beer: 18
+        wine: 18
+        spirits: 20
+      on-premise: 
+        beer: 18
+        wine: 18
+        spirits: 18
+    notes: 
+      en: Beer and wine can be purchased at 18, spirits at 20.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.concealedwines.com/business-opportunities-scandinavia-wine-producers/domestic-alcohol-policy-finland-alko
+
 FR:   # France
   alcohol: 
     legalStatus: legal
@@ -160,6 +205,65 @@ FR:   # France
     links: 
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://www.thetrainline.com/en-us/via/europe/the-legal-drinking-age-in-popular-european-countries
+
+GB:   # United Kingdom
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 in the United Kingdom. However, if you're 16 or 17 and accompanied by an adult, you can drink (but not buy) beer, wine or cider with a meal.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.gov.uk/alcohol-young-people-law
+
+GR:   # Greece
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 Greece. But, unlike other European countries, there is no official legal drinking age in Greece if you are drinking in private (like a house).
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.tripsavvy.com/drinking-in-greece-1526099
+
+HR:   # Croatia
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 Croatia.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.inspiredbycroatia.com/blog/drinking-age-in-croatia/
+
+IE:   # Ireland
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18  
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 throughout Ireland.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.citizensinformation.ie/en/justice/criminal-law/criminal-offences/alcohol-and-the-law
+
+IN: # India
+  # Really complicated (on sub-national level)
+  # https://www.indianbarassociation.org/alcohol-consumption-in-india/
+  alcohol: 
+    legalStatus: "sub-national" 
+    legalAge: null  
+    notes:
+      en: Alcohol regulations are managed on a sub-national level.
+    links:
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
 
 IT:   # Italy
   alcohol: 
@@ -196,6 +300,31 @@ LU:   # Luxembourg
     links: 
       - https://police.public.lu/en/legislation/alcool.html
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
+
+MA:   # Morocco
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 throughout Morocco. It is illegal to drink alcohol in public places except in licensed restaurants and bars. Muslims are not allowed to consume alcohol under the Moroccan law. 
+    links: 
+      - https://moroccodesertcamps.com/drinking-alcohol-in-morocco-morocco-rules/
+      - https://www.marrakech-desert-trips.com/is-alcohol-available-in-morocco
+
+NG:   # Nigeria
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 in Nigeria.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://businessday.ng/features/article/underage-drinking-protecting-nigerias-future/
+      - https://faolex.fao.org/docs/pdf/nig188318.pdf
 
 NL:   # Netherlands
   alcohol: 
@@ -238,8 +367,20 @@ PL:   # Poland
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://travelsinpoland.com/drinking-age-in-poland/
 
+PT: # Portugal
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18  
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 throughout Portugal.
+    links: 
+      - https://www2.gov.pt/en/fichas-tecnicas-fiscalizacao/alcool
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://wikinight.eu/en/others/minimum-legal-drinking-age-in-portugal
+
 RO:   # Romania
-  #fez: test
   alcohol: 
     legalStatus: legal
     legalAge: 
@@ -250,6 +391,17 @@ RO:   # Romania
     links: 
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://theromanianlawyers.com/exploring-the-legal-drinking-age-in-romania-from-minimum-limits-to-age-restrictions/
+
+RU:   # Russia
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 Russia.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
 
 SE:   # Sweden
   alcohol: 
@@ -281,17 +433,28 @@ SK:   # Slovakia
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
       - https://www.roughguides.com/slovakia/eating-drinking/
 
-UK:   # United Kingdom
+SD:   # Sudan
+  # Currently the situation here is not really clear. As the UK gov warns about drinking (see notes.en) I decided to handle it as "prohibited"
+  alcohol: 
+    legalStatus: "prohibited"  
+    legalAge: null 
+    notes:
+      en: Non-Muslims are allowed to drink alcohol in Sudan, but not in the presence of Muslims. However, you may still be arrested for drinking alcohol regardless of the circumstances. 
+    links:
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+      - https://www.gov.uk/foreign-travel-advice/sudan/safety-and-security
+
+TR:   # Turkey
   alcohol: 
     legalStatus: legal
     legalAge: 
       off-premise: 18
       on-premise: 18
     notes: 
-      en: The legal drinking age is 18 in the United Kingdom. However, if you're 16 or 17 and accompanied by an adult, you can drink (but not buy) beer, wine or cider with a meal.
+      en: The legal drinking age is 18 Turkey.
     links: 
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
-      - https://www.gov.uk/alcohol-young-people-law
+      - https://kulahukuk.com/frequently-asked-questions-about-turkey
 
 US:   # United States of America
   alcohol: 
@@ -301,5 +464,16 @@ US:   # United States of America
       on-premise: 21
     notes: 
       en: The legal drinking age is 21 in all states.
+    links: 
+      - https://www.britannica.com/procon/drinking-age-debate#ref391267
+
+ZW:   # Zimbabwe
+  alcohol: 
+    legalStatus: legal
+    legalAge: 
+      off-premise: 18
+      on-premise: 18
+    notes: 
+      en: The legal drinking age is 18 throughout Zimbabwe.
     links: 
       - https://www.britannica.com/procon/drinking-age-debate#ref391267
