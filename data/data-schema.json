@@ -18,7 +18,8 @@
                             "enum": [
                                 "legal",
                                 "prohibited",
-                                "restricted"
+                                "restricted",
+                                "sub-national"
                             ]
                         },
                         "legalAge": {
